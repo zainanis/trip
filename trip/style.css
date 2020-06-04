@@ -1,0 +1,338 @@
+.x{
+
+    background-color:#3AAFA9;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden !important;
+    
+    
+}
+
+.header{
+
+    background-color: #3AAFA9;
+}
+
+
+.logo{
+
+    text-align: center;
+    
+}
+
+.logo img{
+
+   height: 50px;
+   width: 150px;
+   padding-left: 20px;
+}
+
+
+
+
+/*  Nav BAr */
+
+.SocialLogo li {
+   
+    display: inline-block;
+    padding: 5px;
+
+}
+
+.SocialLogo{
+
+    text-align: center;
+
+   
+}
+
+.SocialLogo li a img{
+
+    width: 20px;   
+    padding-top: 10px;
+}
+
+/* .move{
+
+    padding-left: 100px;
+} */
+
+
+@media only screen and (max-width: 990px ) {
+   
+.NaVBar{
+    width: 100%;
+    margin-left: 3px;
+   
+}
+
+}
+.NaVBar li a{
+
+    text-align: center;
+    padding-right: 17px;
+}
+.NaVBar li :hover {
+
+   color:rgb(64, 224, 208) ;
+  
+  
+}
+
+.NaVBar li a{
+
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+.back{
+  
+    /* background-color:#3AAFA9; */
+    background-color:rgb(0, 128, 128);
+}
+
+.navMenu {
+    display: none;
+}
+
+ .navMenu ul {
+    list-style: none;
+    margin-left: -40px;
+
+}
+ 
+
+.NaVBar li:hover .navMenu  {
+    display: inline-block;
+    position: absolute;
+    background-color:rgb(0, 128, 128);
+    
+    
+}
+
+@media only screen and (max-width: 990px ) {
+    
+    .NaVBar li:hover .navMenu {
+        display: inline-block;
+        position: relative;
+        background-color:rgb(0, 128, 128);
+        width: 100%;
+        
+        
+    }
+
+    .logo img{
+
+        display: none;
+    }
+
+
+    
+    }
+
+
+.navMenu ul li {
+padding: 8px;
+text-align: center;
+}
+
+.NaVBar li:hover {
+    background-color: rgb(32, 178, 170);
+}
+
+/*                            */
+
+.slider{
+    overflow: hidden;
+}
+
+.slider figure{
+
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: slider 20s infinite;
+}
+
+.slider figure img{
+
+    width: 20%;
+    float: left;
+    margin-left: 0;
+    
+
+}
+
+
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+
+        left: -200%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+
+/* INTrO */
+.intro{
+
+margin-top: 80px;
+margin-bottom: 80px;
+
+}
+.intro h1{
+
+    text-align: center;
+    color: white;
+   
+    padding-bottom: 10px;
+    
+  
+}
+
+.intro p{
+    padding-top: 10px;
+}
+
+/* Exp */
+
+.top{
+
+    
+    margin-top: 50px;
+}
+
+.bottom{
+
+    
+    margin-bottom: 50px;
+}
+.explore{
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    padding-top: 40px;
+}
+.explore img{
+ 
+   margin-top: 40px;
+
+}
+
+.explore img:hover {
+
+background-color:rgb(22, 71, 70);
+
+border-radius: 100px;
+
+}
+
+.txt{text-align:center;
+    color: white;
+    
+    
+}
+
+/*            */
+
+.winter{
+padding-bottom: 100px;
+padding-top: 100px;
+    
+}
+.winter img{
+    padding: 20px;
+    width: inherit;
+  
+}
+
+
+.txt1{
+    color: white;
+    text-align: left;
+    position:static;
+    
+    
+}
+
+@media only screen and (max-width: 767px ) {
+    
+    .txt1{
+
+       margin-left: 25%;
+    }
+    
+    }
+
+    @media only screen and (max-width:577px) {
+    
+        .txt1{
+    
+           margin-left: 0px;
+        }
+        
+        }
+
+
+        /*  */
+.letter{
+  
+    box-shadow: 0px -3px 20px;
+    
+}        
+.hk{
+    color: white;
+}
+
+.foot{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.foot1{
+
+    line-height: 2;
+    color: white;
+}
+.white{
+    color: white;
+}
+
+.footlogo li a img{
+
+    width: 20px;   
+}
+
+
+.footlogo li{
+    /* display: inline-block; */
+    padding: 10px;
+    margin-left: -50px;
+    list-style: none;
+}
